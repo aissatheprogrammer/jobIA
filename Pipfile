@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+spacy = "==3.2.0"
+pdfplumber = "*"
+azure-ai-textanalytics = "==5.1.0"
+python-dotenv = "*"
+pdfminer = "*"
+pandas = "*"
+sklearn = "*"
+openai = "*"
+keybert = "*"
+rake-nltk = "*"
+langdetect = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
